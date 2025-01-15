@@ -64,8 +64,9 @@ pre .odd-line {
   color: var(--gray30);
 }
 
-pre code {
-  height: 0%;
+/* js が消す */
+pre .emoji {
+  filter: grayscale(100%);
 }
 
 pre .odd-line:first-child {
