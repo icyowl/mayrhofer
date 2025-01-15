@@ -1,0 +1,70 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="../static/base.css">
+<link rel="stylesheet" href="../static/style.css">
+<link rel="stylesheet" href="../static/override.css">
+<link rel="stylesheet" href="../static/custom.css">
+<title>Blog — mayrhofer</title>
+<body>
+  <header>
+    <h1>mayrhofer</h1>
+    <nav>
+      <ul class="nav navbar-nav">
+        <li><a href="../">Welcome</a></li>
+        
+          <li class="active"><a href="./">Blog</a></li>
+        
+          <li><a href="../projects/">Projects</a></li>
+        
+          <li><a href="../about/">About</a></li>
+        
+      </ul>
+    </nav>
+  </header>
+  <div class="page">
+    
+  
+    
+  <div class="blog-post">
+  
+    <h2><a href="einsamkeit-d620-i/">孤独 Einsamkeit D620 I</a></h2>
+  
+  <p class="meta">Modified on 2025-01-16</p>
+
+   
+    <p>「どこまでも深い孤独を私に与えて下さい。」詩人は、孤独の</p>
+
+  
+  </div>
+
+  
+
+  
+  <div class="pagination">
+    
+      <span class="disabled">&laquo; Previous</span>
+    
+    | 1 |
+    
+      <span class="disabled">Next &raquo;</span>
+    
+  </div>
+
+
+  </div>
+  <footer>
+    &copy; Copyright 2025 by Aki.
+  </footer>
+  <script>
+    const preElement = document.getElementById('lyrics');
+    const lines = preElement.textContent.split('\n');
+  
+    preElement.innerHTML = lines
+      .map((line, index) =>
+        `<p class="${index % 2 === 0 ? 'odd-line' : 'even-line'}">${line}</p>`
+      )
+      .join('\n');
+  </script>
+</body>

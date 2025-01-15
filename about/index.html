@@ -1,0 +1,47 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="../static/base.css">
+<link rel="stylesheet" href="../static/style.css">
+<link rel="stylesheet" href="../static/override.css">
+<link rel="stylesheet" href="../static/custom.css">
+<title>About this Website — mayrhofer</title>
+<body>
+  <header>
+    <h1>mayrhofer</h1>
+    <nav>
+      <ul class="nav navbar-nav">
+        <li><a href="../">Welcome</a></li>
+        
+          <li><a href="../blog/">Blog</a></li>
+        
+          <li><a href="../projects/">Projects</a></li>
+        
+          <li class="active"><a href="./">About</a></li>
+        
+      </ul>
+    </nav>
+  </header>
+  <div class="page">
+    
+  <h2>About this Website</h2>
+  <p>This is a website that was made with the Lektor quickstart.</p>
+<p>And it does not contain a lot of information.</p>
+
+
+  </div>
+  <footer>
+    &copy; Copyright 2025 by Aki.
+  </footer>
+  <script>
+    const preElement = document.getElementById('lyrics');
+    const lines = preElement.textContent.split('\n');
+  
+    preElement.innerHTML = lines
+      .map((line, index) =>
+        `<p class="${index % 2 === 0 ? 'odd-line' : 'even-line'}">${line}</p>`
+      )
+      .join('\n');
+  </script>
+</body>
