@@ -17,8 +17,8 @@
 /* nkmk */
 
 .youtube-video {
-  width: 80%;
-  margin: 1rem auto;
+  width: 60%;
+  margin: 2rem auto;
   aspect-ratio: 16/9;
 }
 
@@ -52,22 +52,26 @@ pre p {
   line-height: 1;
 }
 
-pre .odd-line {
+pre .even-line {
   font-family: var(--font-heading);
   font-size: var(--fontsize-6);
+  color: var(--gray60);
+}
+
+pre .odd-line {
+  font-family: var(--font-european);
+  font-size: var(--fontsize-4);
   color: var(--gray30);
 }
 
-pre .even-line {
-  font-family: var(--font-european);
-  /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
-  font-size: var(--fontsize-4);
+pre code {
+  height: 0%;
 }
 
 pre .odd-line:first-child {
   font-family: var(--font-heading);
   font-weight: var(--font-weight-semi-bold);
   font-size: var(--fontsize-3);
-  line-height: 2;
+  padding-right: 2rem;
 }
 
