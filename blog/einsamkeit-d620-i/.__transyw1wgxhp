@@ -30,7 +30,7 @@
   
     <h2>孤独 Einsamkeit D620 I</h2>
   
-  <p class="meta">Modified on 2025-01-08</p>
+  <p class="meta">Modified on 2025-01-16</p>
 
   
     <p>「どこまでも深い孤独を私に与えて下さい。」詩人は、孤独の</p>
@@ -39,7 +39,7 @@
       <iframe width="560" height="315" src="https://www.youtube.com/embed/JMaJARcxX1o?si=Ih0b1WVZr1hT8njz&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
     <pre id="lyrics">
-      <p>Einsamkeit I
+      <p><span>Einsamkeit I</span>
 &nbsp;
 "Gib mir die Fülle der Einsamkeit!"
 与えて下さい どこまでも深い孤独
@@ -48,11 +48,11 @@ Im Tal, von Blüten überschneit,
 Da ragt ein Dom, und nebenbei
 そびえ立っている 大聖堂 その中に
 In hohem Stile die Abtei:
-高貴な様式（荘厳な） 修道院
+高貴な様式 修道院
 Wie ihr Begründer, fromm und still,
-その創設者のように 虔深で静かに
+その創設者のように 虔深で静か
 Der müden Hafen und Asyl,
-疲れた港（安息の地） そして 避難所
+疲れた港（安息の地） 避難所
 &#x1D106; Hier kühlt mit heiliger Betauung,
 ここで冷やす 聖なる浸透で
 Die nieversiegende Beschauung. &#x1D107;
@@ -77,11 +77,10 @@ Von den Wellen weggeschwemmt.
 波によって 押し流される</p>
 
     </pre>
-    <div class="source">
-      <p>Artist: Ian Bostridge (Tenor) Lars Vogt (piano)</p>
-      <p>Schubert: Schwanengesang ℗ Pentatone Music B.V.</p>
-      <p>Released on 2022-09-23</p>
-    </div>
+    <p>Ian Bostridge (tenor) Lars Vogt (piano)</p>
+
+    <p>Schubert: Schwanengesang ℗ Pentatone Music B.V.<br>
+Released on: 2022-09-23</p>
 
     <p>Im Tal は、詩編23編の im Todesschattens Tale を思い描いていたかどうか分かりません。
 聖書』の詩篇23篇ダビデの経験</p>
@@ -92,7 +91,7 @@ Von den Wellen weggeschwemmt.
   
   <div class="paging">
     
-        <a href="../einsamkeit-d620-ii/">&lt; Previous</a>
+        <span class="disabled">&lt; Previous</span>
     
     
         <span class="disabled">Next &gt;</span>
@@ -110,7 +109,7 @@ Von den Wellen weggeschwemmt.
   
     preElement.innerHTML = lines
       .map((line, index) =>
-        `<p class="${index % 2 === 0 ? 'odd-line' : 'even-line'}">${line.trimStart()}</p>`
+        `<p class="${index % 2 === 0 ? 'odd-line' : 'even-line'}">${line}</p>`
       )
       .join('\n');
   </script>

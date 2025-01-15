@@ -40,7 +40,7 @@
   
     preElement.innerHTML = lines
       .map((line, index) =>
-        `<p class="${index % 2 === 0 ? 'odd-line' : 'even-line'}">${line}</p>`
+        `<p class="${index % 2 === 0 ? 'odd-line' : 'even-line'}">${line.trimStart()}</p>`
       )
       .join('\n');
   </script>
