@@ -16,9 +16,10 @@
 
 /* layout */
 
-div.page {
-  background: #fff;
+body, div.page {
+  background: var(--surface);
 }
+
 
 .excerpt a {
   text-decoration: none;
@@ -39,15 +40,21 @@ div.page {
   padding: .5rem 1rem;
   margin-bottom: 1rem;
   line-height: var(--line-height-tight);
-  /* background: var(--surface); */
+  background: #fff;
 }
 
-.blog-index .blog-post:first-child .excerpt {
+.blog-feature .blog-post:first-child .excerpt {
   border: none;
   padding: 0rem;
+  margin-top: 1rem;
   margin-bottom: 2rem;
-  /* background: #fff; */
 }
+
+.blog-feature .blog-post:first-child .excerpt p {
+  font-size: var(--fontsize-5);
+  line-height: var(--line-height);
+}
+
 
 /* content */
 
