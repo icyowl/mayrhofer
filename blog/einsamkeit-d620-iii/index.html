@@ -98,8 +98,7 @@ Und sein Inn’res Liebe hallt.
   </footer>
   <script>
     const preElement = document.getElementById('lyrics');
-    const lines = preElement.textContent.split('\n');
-  
+    const lines =  preElement ? preElement.textContent.split('\n') : [];
     preElement.innerHTML = lines
       .map((line, index) =>
         `<p class="${index % 2 === 0 ? 'odd-line' : 'even-line'}">${line.trimStart()}</p>`
