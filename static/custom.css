@@ -38,10 +38,11 @@ body, div.page {
   border: solid 1px var(--gray90);
   border-radius: 8px;
   padding: .5rem 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   line-height: var(--line-height-tight);
   background: #fff;
 }
+
 
 .blog-feature .blog-post:first-child .excerpt {
   border: none;
@@ -55,6 +56,13 @@ body, div.page {
   line-height: var(--line-height);
 }
 
+.blog-feature .blog-post:first-child .excerpt .meta {
+  margin-top: .5rem;
+}
+
+.blog-list {
+  margin-top: 2rem;
+}
 
 /* content */
 
