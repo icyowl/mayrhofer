@@ -3,6 +3,15 @@
   --secondary: #1284A2; /* new */
   --accent: #169bbd;
   --surface: #fdfefe; /* new */
+
+  --pale-green: #E0EFEA;
+  --dull-emerald-green: #445F3B;
+  --dull-olive: #8EA076;
+  --dusty-brown: #564734;
+
+  --primary: var(--pale-green);
+  --secondary: var(--gray30);
+  --accent: var(--gray60);
 }
 
 /* override */

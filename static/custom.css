@@ -14,7 +14,42 @@
   text-decoration: none;
 }
 
-/* nkmk */
+/* layout */
+
+div.page {
+  background: #fff;
+}
+
+.excerpt a {
+  text-decoration: none;
+}
+
+.excerpt p {
+  margin: .25rem 0;
+  font-size: var(--fontsize-6);
+}
+
+.excerpt h2 {
+  font-size: var(--fontsize-3);
+}
+
+.excerpt {
+  border: solid 1px var(--primary);
+  border-radius: 4px;
+  padding: .5rem 1rem;
+  margin-bottom: 1rem;
+  line-height: var(--line-height-tight);
+  background: var(--surface);
+}
+
+.blog-index .blog-post:first-child .excerpt {
+  border: none;
+  padding: 0rem;
+  margin-bottom: 2rem;
+  background: #fff;
+}
+
+/* content */
 
 .youtube-video {
   width: 60%;
