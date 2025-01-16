@@ -73,6 +73,12 @@ pre {
   font-size: var(--fontsize-2);
 }
 
+#lyrics p:nth-child(2) {
+  font-family: var(--font-heading);
+  font-size: var(--fontsize-5);
+  color: var(--gray30);
+}
+
 #lyrics .odd-line:empty::before {
   /* empty element is <span><span> */
   content: "*";
