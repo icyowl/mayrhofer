@@ -34,19 +34,19 @@ div.page {
 }
 
 .excerpt {
-  border: solid 1px var(--primary);
+  border: solid 1px var(--gray90);
   border-radius: 4px;
   padding: .5rem 1rem;
   margin-bottom: 1rem;
   line-height: var(--line-height-tight);
-  background: var(--surface);
+  /* background: var(--surface); */
 }
 
 .blog-index .blog-post:first-child .excerpt {
   border: none;
   padding: 0rem;
   margin-bottom: 2rem;
-  background: #fff;
+  /* background: #fff; */
 }
 
 /* content */
