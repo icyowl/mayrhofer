@@ -20,6 +20,9 @@ body, div.page {
   background: var(--surface);
 }
 
+pre p {
+  white-space: pre-wrap;
+}
 
 .excerpt a {
   text-decoration: none;
