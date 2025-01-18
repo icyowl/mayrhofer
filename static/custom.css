@@ -49,6 +49,7 @@ body, div.page {
   padding: 0rem;
   margin-top: 1rem;
   margin-bottom: 2rem;
+  background: var(--surface);
 }
 
 .blog-feature .blog-post:first-child .excerpt p {

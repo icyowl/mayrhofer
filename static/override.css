@@ -12,6 +12,11 @@
   --primary: var(--pale-green);
   --secondary: var(--gray30);
   --accent: var(--gray60);
+
+  --primary: #A0C4DC;
+  --secondary: hsl(0 0 20%);
+  --accent: #64829B;
+  --surface: #F6F4F5;
 }
 
 /* override */
