@@ -21,7 +21,8 @@ body, div.page {
 }
 
 footer {
-  border-top: 2px solid var(--gray90);
+  border-collapse:separate;
+  border-top: 1px solid var(--gray60);
 }
 
 pre p {
@@ -149,9 +150,9 @@ pre {
 }
 
 
-@media screen and (max-width: 640px) {
+/* @media screen and (max-width: 640px) {
   footer {
     border-top: 2px solid var(--gray30);
   }
   
-}
+} */
