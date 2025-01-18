@@ -20,6 +20,10 @@ body, div.page {
   background: var(--surface);
 }
 
+footer {
+  border-top: 1px solid var(--gray60);
+}
+
 pre p {
   white-space: pre-wrap;
 }
